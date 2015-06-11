@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+	<title>Conway's Game of Life Implementation</title>
+<link href="http://fonts.googleapis.com/css?family=Allan:bold" rel="stylesheet" type="text/css">
+<style type="text/css">
+ body{
+ 	background-color: rgb(38,38,38);
+ }
+
+ canvas	{
+ 	border: 1px solid rgba(242,198,65,0.1);
+ 	margin: 10px auto auto auto;
+ 	display: block;
+ }
+#test{
+	color: white;
+	font-family: 'Allan' , Georgia;
+	margin-bottom: 0;
+    font-size: 72;
+    text-align: center;
+}
+
+#test:hover{
+	color: red;
+}
+</style>
+<script type="text/javascript" src="javascripts/game_of_life.js"></script>
+</head>
+<body>
+<div id="test">Conway's Game of Life</div>
+<script type="text/javascript">
+new GameOfLife();
+</script>
+</body>
+</html>
